@@ -35,7 +35,7 @@ A full-stack **MERN note-taking application** with authentication, allowing user
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/Negiditya/Note-app]
+git clone https://github.com/Negiditya/Note-app
 ```
 
 2. Navigate to the project directory:
@@ -45,8 +45,9 @@ cd note-app
 
 3. Install dependencies for **frontend and backend**:
 ```bash
+cd backend
 npm install        # Backend dependencies
-cd client
+cd ../frontend
 npm install       # Frontend dependencies
 ```
 
@@ -59,7 +60,7 @@ GOOGLE_CLIENT_ID=<Your Google OAuth Client ID>
 GOOGLE_CLIENT_SECRET=<Your Google OAuth Client Secret>
 ```
 
-5. Create a `.env` file in the frontend (`frontend/`) for Vite to connect to the backend:
+5. Create a `.env` file in the frontend (`/frontend`) for Vite to connect to the backend:
 ```
 VITE_API_BASE_URL=<Your Backend API URL>
 ```
@@ -103,10 +104,10 @@ The project is deployed on **Vercel**:
 ```
 note-app/
 │
-├── client/             # React frontend (Vite + TS)
-├── server/             # Node.js backend
-├── README.md           # Project documentation
-└── package.json
+├── frontend/ # React frontend (Vite + TS)
+├── backend/ # Node.js backend
+├── README.md # Project documentation
+
 ```
 
 ---
