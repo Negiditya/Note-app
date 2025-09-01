@@ -67,6 +67,7 @@ VITE_API_BASE_URL=<Your Backend API URL>
 
 6. Run the backend server:
 ```bash
+cd backend
 node server.js
 ```
 
@@ -104,8 +105,8 @@ The project is deployed on **Vercel**:
 ```
 note-app/
 │
-├── frontend/ # React frontend (Vite + TS)
-├── backend/ # Node.js backend
+├── frontend/ # React frontend (Vite + JS)
+├── backend/ # Node.js & Express.js backend
 ├── README.md # Project documentation
 
 ```
