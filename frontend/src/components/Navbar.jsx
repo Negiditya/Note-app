@@ -2,7 +2,7 @@ import { useAuth } from "../context/AuthContext";
 import logo from "../assets/logo.png";
 
 export default function Navbar() {
-  const { user, logout } = useAuth();
+  const {  logout } = useAuth();
 
   return (
     <nav className="flex justify-between items-center px-4 sm:px-6 py-3 sm:py-4 bg-white">
